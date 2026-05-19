@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --write \"*.{html,css,js}\""
+    "format": "prettier --write \"*.{html,css,js}\"",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,13 @@
   },
   "homepage": "https://github.com/catherine-han-neu/wd-project-1-personal-home-page#readme",
   "devDependencies": {
+    "eslint": "^10.4.0",
+    "globals": "^17.6.0",
     "prettier": "^3.8.3"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5"
   }
 }
