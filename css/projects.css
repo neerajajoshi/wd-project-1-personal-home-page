@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.nav_button_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  & > * {
+    padding: 10px;
+  }
+}

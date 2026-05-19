@@ -1,0 +1,25 @@
+{
+  "name": "wd-project-1-personal-home-page",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a project for my Summer 2026 Web Development course at Northeastern University. It is a personal home page project to be developed as a static site using only vanilla HTML, CSS, and JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"*.{html,css,js}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherine-han-neu/wd-project-1-personal-home-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catherine-han-neu/wd-project-1-personal-home-page/issues"
+  },
+  "homepage": "https://github.com/catherine-han-neu/wd-project-1-personal-home-page#readme",
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
+}
